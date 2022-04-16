@@ -1,0 +1,39 @@
+.modal{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.434);
+}
+.modal .container{
+    border-radius: 10px;
+    height: 450px;
+    background-color: white;
+    z-index: 10000;
+    width: 350px;
+
+
+}
+
+.modal .container .top{
+    /* border: 1px solid; */
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 23px;
+    padding-right: 30px;
+}
+
+.modal .container input,
+.modal .container select{
+    width: 80%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    height: 35px;
+}
+.modal .container button{
+    width: 80%;
+}
